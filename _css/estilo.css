@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+/*Layout pagina*/
+body{   
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    color: rgba(0,0,0,1);
+}
+div#interface {
+    width: auto;
+    padding: 25px;
+}
+/*Layout pagina*/
+
+/*layout cabeçalho*/
+header#cabecalho img {
+    width: 200px;
+}
+nav#menu{
+    display: block;
+    font-size: 25px;
+    font-family: 'Patua One', serif;
+}
+nav#menu h1 {
+    display: none;
+}
+nav#menu ul {
+    list-style: none;
+    position: absolute;
+    top: 85px;
+    left: 325px;
+}
+nav#menu li {
+    display: inline-block;
+    padding: 25px;
+}
+nav#menu a{
+    color: black;
+    text-decoration: none;
+    transition: .2s;
+}
+nav#menu a:hover{
+    color: #72a523;
+    border-bottom: 5px solid #d39e32;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+/*layout cabeçalho*/
+
+/*layout corpo */
+section#corpo {
+    display: block;
+    width: 700px;
+    float: left;
+}
+header#banner h1 {
+   display: none;
+}
+
+.bannerPrincipal {
+    width: 700px;
+    overflow: hidden;
+}
+/*layout corpo*/
+
+/*Layout rodape*/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid #808080;
+}
+footer#rodape p{
+    text-align: center;
+}
+/*Layout rodape*/
