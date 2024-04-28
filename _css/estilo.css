@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
 /*Layout pagina*/
 body{   
     font-family: 'Times New Roman', Times, serif;
@@ -69,24 +71,46 @@ aside{
     font-size: 35px;
 }
 aside :hover{
-    color: #3d511c;
+    color: rgb(61, 81, 28);
     font-weight: bold;
 }
 #conteudo{
     display: block;
     margin-top: 125px;
-    height: 500px;
+    height: 350px;
     background-size: cover;
     background-image: url("../_fotos/imagfundo.jpeg");
     background-attachment: fixed;
     border-top: 1px solid #33A8DB80;
     border-bottom: 1px solid #33A8DB80;
     padding: 200px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 #conteudo h1{
+    font-family: "Rubik Mono One", monospace;
     text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(70, 70, 70, 0.4);
+
 }
+#conteudo p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(70, 70, 70, 0.4);
+}
+
+#contener {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 1200px;
+    background-image: url(../_fotos/conterner.png);
+}
+
 
 /*layout corpo*/
 
