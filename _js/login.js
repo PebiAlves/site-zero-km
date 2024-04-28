@@ -3,12 +3,16 @@ document.addEventListener('DOMContentLoaded', function() {
 
     class Login {
         constructor() {
-            this.cristianoL = "cristiano";
-            this.cristianoS = 110521;
+            this.usuarios = {
+                "cristiano": 110521,
+                "lorena": 100118,
+                "ana julia": 151299,
+                "cleber": 10091512
+            };
         }
-
+    
         EfetuarLogin(nome, senha) {
-            if (nome === this.cristianoL && senha == this.cristianoS) {
+            if (nome in this.usuarios && senha == this.usuarios[nome]) {
                 window.location.href = "https://zerokmtransportes.glide.page";
             } else {
                 window.location.href = "https://zerokmtransportes.com/";
