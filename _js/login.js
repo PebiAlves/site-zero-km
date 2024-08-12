@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
         EfetuarLogin(nome, senha) {
             if (nome in this.usuarios && senha == this.usuarios[nome]) {
-                window.location.href = "https://zerokmtransportes.glide.page";
+                window.location.href = "escolhas.html";
             } else {
                 window.location.href = "https://zerokmtransportes.com/";
             }
