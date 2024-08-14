@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: none;
+}
+
+div{
+    background-color: aquamarine;
+    padding: 65px;
+    border-color: black;
+    border: solid, 1px;
+    margin: 2px;
+}
+div:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+div#a{
+    text-decoration: none;
+}
